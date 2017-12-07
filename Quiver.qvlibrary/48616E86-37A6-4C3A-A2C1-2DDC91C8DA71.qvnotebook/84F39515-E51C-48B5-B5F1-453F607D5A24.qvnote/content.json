@@ -1,0 +1,9 @@
+{
+  "title": "jvm知识",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div>1. 什么情况下会发生栈内存溢出。<br></div><div>2. JVM 的内存结构，Eden 和 Survivor 比例。</div><div><br></div><div>3. jvm 中一次完整的 GC 流程是怎样的，对象如何晋升到老年代，说说你知道的几种主要的</div><div><br></div><div>jvm 参数。</div><div><br></div><div>4. 你知道哪几种垃圾收集器，各自的优缺点，重点讲下 cms，包括原理，流程，优缺点</div><div><br></div><div>5. 垃圾回收算法的实现原理。</div><div><br></div><div>6. 当出现了内存溢出，你怎么排错。</div><div><br></div><div>7. JVM 内存模型的相关知识了解多少，比如重排序，内存屏障，happen-before，主内存，</div><div><br></div><div>工作内存等。</div><div><br></div><div>8. 简单说说你了解的类加载器。</div><div><br></div><div>9. 讲讲 JAVA 的反射机制。</div><div><br></div><div>10. 你们线上应用的 JVM 参数有哪些。</div><div><br></div><div>11. g1 和 cms 区别,吞吐量优先和响应优先的垃圾收集器选择。</div><div><br></div><div>12. 请解释如下 jvm 参数的含义：</div><div><br></div><div>-server -Xms512m -Xmx512m -Xss1024K</div><div><br></div><div>-XX:PermSize=256m -XX:MaxPermSize=512m</div><div><br></div><div>-XX:MaxTenuringThreshold=20</div><div><br></div><div>XX:CMSInitiatingOccupancyFraction=80</div><div><br></div><div>-XX:+UseCMSInitiatingOccupancyOnly。</div>"
+    }
+  ]
+}

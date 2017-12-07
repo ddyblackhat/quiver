@@ -1,0 +1,9 @@
+{
+  "title": "开源框架",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "1\\. 简单讲讲 tomcat 结构，以及其类加载器流程。\n\n2\\. tomcat 如何调优，涉及哪些参数。\n\n3\\. 讲讲 Spring 加载流程。\n\n### 4.讲讲 Spring 事务的传播属性。\n\n REQUIRED:业务方法需要在一个容器里运行。如果方法运行时，已经处在一个事务中，那么加入到这个事务，否则自己新建一个新的事务。\n\n NOT\\_SUPPORTED:声明方法不需要事务。如果方法没有关联到一个事务，容器不会为他开启事务，如果方法在一个事务中被调用，该事务会被挂起，调用结束后，原先的事务会恢复执行。\n\n REQUIRESNEW:不管是否存在事务，该方法总汇为自己发起一个新的事务。如果方法已经运行在一个事务中，则原有事务挂起，新的事务被创建。\n\n MANDATORY：该方法只能在一个已经存在的事务中执行，业务方法不能发起自己的事务。如果在没有事务的环境下被调用，容器抛出例外。\n\n SUPPORTS:该方法在某个事务范围内被调用，则方法成为该事务的一部分。如果方法在该事务范围外被调用，该方法就在没有事务的环境下执行。\n\n NEVER：该方法绝对不能在事务范围内执行。如果在就抛例外。只有该方法没有关联到任何事务，才正常执行。\n\n NESTED:如果一个活动的事务存在，则运行在一个嵌套的事务中。如果没有活动事务，则按REQUIRED属性执行。它使用了一个单独的事务，这个事务 拥有多个可以回滚的保存点。内部事务的回滚不会对外部事务造成影响。它只对DataSourceTransactionManager事务管理器起效。\n\n使用方式\n\n@Transactional(propagation= Propagation.REQUIRED)\n@Override\npublic AspResult\\<Integer\\> updateBussinessProjectByBpm(ProjectInfoModel projectInfoModel) {\n //先判断商务项目是否存在\nAspResult\\<Integer\\> aspResult = new AspResult\\<Integer\\>();\n\n### 5.Spring 如何管理事务的。\n提供一致的编程式事务管理API，不管使用Spring JDBC框架还是集成第三方框架使用该API进行事务编程；\n无侵入式的声明式事务支持。\n### 6.Spring 怎么配置事务（具体说出一些关键的 xml 元素）。\n<!--配置事务管理器(mybatis采用的是JDBC的事务管理器)-->\n<bean id=\"transactionManager\" class=\"org.springframework.jdbc.datasource.DataSourceTransactionManager\">\n        <property name=\"dataSource\" ref=\"dataSource\"></property>\n</bean>\n<!--配置基于注解的声明式事务,默认使用注解来管理事务行为-->\n<tx:annotation-driven transaction-manager=\"transactionManager\"/>\n\n### 7.说说你对 Spring 的理解，非单例注入的原理？它的生命周期？循环注入的原理，aop 的实现原理，说说aop中的几个术语，它们是怎么相互工作的。\n\n\n\n### 8.Springmvc 中 DispatcherServlet 初始化过程。"
+    }
+  ]
+}

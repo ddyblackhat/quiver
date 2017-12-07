@@ -1,0 +1,9 @@
+{
+  "title": "数据库知识",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div>1. 数据库隔离级别有哪些，各自的含义是什么，MYSQL 默认的隔离级别是是什么。</div><div><br></div><div>2. MYSQL 有哪些存储引擎，各自优缺点。</div><div><br></div><div>3. 高并发下，如何做到安全的修改同一行数据。</div><div><br></div><div>4. 乐观锁和悲观锁是什么，INNODB 的标准行级锁有哪 2 种，解释其含义。</div><div><br></div><div>5. SQL 优化的一般步骤是什么，怎么看执行计划，如何理解其中各个字段的含义 。</div><div><br></div><div>6. 数据库会死锁吗，举一个死锁的例子，mysql 怎么解决死锁。</div><div><br></div><div>7. MYsql 的索引原理，索引的类型有哪些，如何创建合理的索引，索引如何优化。</div><div><br></div><div>8. 聚集索引和非聚集索引的区别。</div><div><br></div><div>9. select for update 是什么含义，会锁表还是锁行或是其他。</div><div><br></div><div>10. Btree 怎么分裂的，什么时候分裂，为什么是平衡的。</div><div><br></div><div>11. 数据库的 ACID 是什么。</div><div><br></div><div>12. 某个表有近千万数据，CRUD 比较慢，如何优化。</div><div><br></div><div>13. Mysql 怎么优化 table scan 的。</div><div><br></div><div>14. 如何写 sql 能够有效的使用到复合索引。</div><div><br></div><div>15. mysql 中 in 和 exists 区别。</div><div><br></div><div>16. 数据库自增主键可能的问题。</div>"
+    }
+  ]
+}

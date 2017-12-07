@@ -1,0 +1,9 @@
+{
+  "title": "一次面试",
+  "cells": [
+    {
+      "type": "text",
+      "data": "1.JVM 有哪些东西 ，局部变量表都存什么<div>2.双亲委派模型好处</div><div>3.NIO &nbsp; &nbsp; select 作用</div><div><br></div><div><br></div><div><br></div><div>框架：</div><div>1.dubbo 有哪些协议，各有哪些不同</div><div>2.自己实现一个rpc，该怎么实现 &nbsp; &nbsp;动态代理在 A端还是B端</div><div>3.redis数据结构？内部原理</div><div>4.redis和memcache区别？通信和内存管理上</div><div>5.activemq 模型，内部数据结构是怎么样的</div><div><br></div><div><br></div><div>数据库和算法：</div><div>1.索引类型</div><div>2.索引原理 &nbsp;btree 和 二叉树有什么区别， btree下应该有多少个节点</div><div>3.红黑树 &nbsp; &nbsp; &nbsp;&nbsp;</div><div>4.treeMap可以怎么实现</div><div>5.一致性Hash，自己怎么实现</div><div><br></div>"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "消息队列",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div>1. 用过哪些 MQ，和其他 mq 比较有什么优缺点，MQ 的连接是线程安全的吗，你们公司的</div><div><br></div><div>MQ 服务架构怎样的。</div><div><br></div><div>2. MQ 系统的数据如何保证不丢失。</div><div><br></div><div>3. rabbitmq 如何实现集群高可用。</div>"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "搜索",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div>1. elasticsearch 了解多少，说说你们公司 es 的集群架构，索引数据大小，分片有多少，以</div><div><br></div><div>及一些调优手段。elasticsearch 的倒排索引是什么。</div><div><br></div><div>2. elasticsearch 索引数据多了怎么办，如何调优，部署。</div><div><br></div><div>3. lucence 内部结构是什么。</div>"
+    }
+  ]
+}

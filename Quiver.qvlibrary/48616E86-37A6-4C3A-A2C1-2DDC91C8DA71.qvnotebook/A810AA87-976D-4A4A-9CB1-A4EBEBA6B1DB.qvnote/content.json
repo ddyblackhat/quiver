@@ -1,0 +1,9 @@
+{
+  "title": "Java基础",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "### 1.JAVA 中的几种基本数据类型是什么，各自占用多少字节。\n\n`byte 1位 8个字节\n\nchar 1位 \n\nshort 2位\n\nint 4位\n\nlong 8位\n\nfloat 4位\n\ndouble 8位\n\nboolean 1位`\n\n### 2.String 类能被继承吗，为什么。\n\n### 3.String，Stringbuffer，StringBuilder 的区别。\n\n### 4.ArrayList 和 LinkedList 有什么区别。\n\n5\\. 讲讲类的实例化顺序，比如父类静态数据，构造函数，字段，子类静态数据，构造函数，字段，当 new 的时候，他们的执行顺序。\n\n`父类静态数据（静态变量，静态代码块） 子类静态数据，父类构造函数，字段，子类构造函数，字段`\n\n6\\. 用过哪些 Map 类，都有什么区别，HashMap 是线程安全的吗,并发下使用的 Map 是什么，\n\n`​treeMap 是可以排序的,基于红黑树实现的`\n\n他们内部原理分别是什么，比如存储方式，hashcode，扩容，默认容量等。\n\n7\\. JAVA8 的 ConcurrentHashMap 为什么放弃了分段锁，有什么问题吗，如果你来设计，\n\n你如何设计。\n\n8.有没有有顺序的Map实现类，如果有，他们是怎么保证有序的。\n\n9\\. 抽象类和接口的区别，类可以继承多个类么，接口可以继承多个接口么,类可以实现多个接\n\n口么。\n\n10\\. 继承和聚合的区别在哪。\n\n11\\. 讲讲你理解的 nio。他和 bio 的区别是啥，谈谈 reactor 模型。\n\n<http://tech.meituan.com/nio.html>\n\n12\\. 反射的原理，反射创建类实例的三种方式是什么。\n\n13\\. 反射中，Class.forName 和 ClassLoader 区别。\n\n14\\. 描述动态代理的几种实现方式，分别说出相应的优缺点。\n\n15\\. 动态代理与 cglib 实现的区别, “动态”怎么解释？\n\n\n16\\. 为什么 CGlib 方式可以对接口实现代理。\n\n17\\. final 的用途。\n\n18\\. 写出三种单例模式实现。\n\n19\\. 如何在父类中为子类自动完成所有的 hashcode 和 equals 实现？这么做有何优劣。\n\n20\\. 请结合 OO 设计理念，谈谈访问修饰符 public、private、protected、default 在应\n\n用设计中的作用。\n\n21\\. 深拷贝和浅拷贝区别。\n\n22\\. 数组和链表数据结构描述，各自的时间复杂度。\n\n23\\. error 和 exception 的区别，CheckedException，RuntimeException 的区别。\n\n24\\. 请列出 5 个运行时异常。 25\\. 在自己的代码中，如果创建一个 java.lang.String 对象，这个对象是否可以被类加载\n\n器加载？为什么。\n\n26\\. 说一说你对 java.lang.Object 对象中 hashCode 和 equals 方法的理解。在什么场景\n\n下需要重新实现这两个方法。\n\n27\\. 在 jdk1.5 中，引入了泛型，泛型的存在是用来解决什么问题。\n\n`泛型的本质是参数化类型，也就是说所操作的数据类型被指定为一个参数。`\n\n28\\. 这样的 a.hashcode() 有什么用，与 a.equals(b)有什么关系。\n\n29.有没有可能2个不相等的对象有相同的hashcode\n30\\. Java 中的 HashSet 内部是如何工作的。\n\n31\\. 什么是序列化，怎么序列化，为什么序列化，反序列化会遇到什么问题，如何解决。"
+    }
+  ]
+}

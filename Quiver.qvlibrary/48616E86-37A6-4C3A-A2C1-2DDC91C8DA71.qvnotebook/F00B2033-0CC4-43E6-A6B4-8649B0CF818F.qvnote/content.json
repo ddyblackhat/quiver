@@ -1,0 +1,9 @@
+{
+  "title": "操作系统",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div>1. Linux 系统下你关注过哪些内核参数，说说你知道的。</div><div><br></div><div>2. Linux 下 IO 模型有几种，各自的含义是什么。</div><div><br></div><div>3. epoll 和 poll 有什么区别。</div><div><br></div><div>4. 平时用到哪些 Linux 命令。</div><div><br></div><div>5. 用一行命令查看文件的最后五行。</div><div><br></div><div>6. 用一行命令输出正在运行的 java 进程。</div><div><br></div><div>7. 介绍下你理解的操作系统中线程切换过程。</div><div><br></div><div>8. 进程和线程的区别。</div>"
+    }
+  ]
+}
